@@ -14,11 +14,18 @@ The data belongs to a large cloud provider. It is obtained from their Data Cente
 Our world is full of equipment. For example:
 - Aircraft consists of different equipments
 - HVAC (Heating, Ventilation, Air Conditioning) equipment consists of various parts
-- Similarly data centers runs thousands of servers that need to be proactively and predictively maintaind to avoid downtime that leads to business impact and loss of productivity.
+- Similarly data centers run thousands of servers that need to be proactively and predictively maintained to avoid downtime 
+  that can lead to business disruption, financial impact, and loss of productivity.
 
-All these equipments or their parts meet failures and hence need maintenance. Thus maintenance is a big industry by itself. Maintenance is done either by replacing parts at regular intervals even when those are working (**Preventive Maintenance**) or by replacing the parts only when there is failure (**Reactive Maintenance**). **Predictive Maintenance** avoids the drawbacks of Preventive Maintenance (under utilization of a part's life) and Reactive Maintenance (unscheduled downtime). Based on the health of an equipment in the past, future point of failure can be predicted in Predictive Maintenance. Thus, replacement of parts can be scheduled just before the actual failure. Traditionally, predictive maintenance is being done using rule based techniques. With the advent of connected sensors (IoT), data from equipment is continuously collected and fed to Machine Learning based systems to predict its future health.
+All these equipments or their parts meet failures and hence need maintenance. Thus maintenance is a big industry by itself. Maintenance is done either by replacing parts at a regular intervals even when those are working (**Preventive Maintenance**) or by replacing the parts only when there is a failure (**Reactive Maintenance**). **Predictive Maintenance** avoids the drawbacks of Preventive Maintenance (under utilization of a part's life) and Reactive Maintenance (unscheduled downtime). Based on the health of an equipment in the past, future point of failure can be predicted in Predictive Maintenance. Thus, replacement of parts can be scheduled just before the actual potential failure. Traditionally, predictive maintenance is being done using rule based techniques. With the advent of connected sensors (IoT), data from equipment is continuously collected and fed to Machine Learning based systems to predict its future health.
 
-In this case, we'll be using macine learning to determine the maintenance predictively.
+This is a classic case of unsupervised learning. Unsupervised learning can be compared to the way children learn about the world without the insights of adult supervision. No one teaches children to be surprised and curious about anything they’ve not seen before. Unsupervised learning means you’re only exposing a machine to input data. There is no corresponding output data to teach the system the answers it should be arriving at.
+
+In our use case, we do not know about a specific state at which a machine can be characterized as faulty or a component requires to be replaced in order to keep the machine in the running state. Hence we need to follow unsupervised learning method to determine this. We'll be using Neural network paradigm of machine learning to make intelligent decisions with limited human assistance to determine the maintenance predictively. 
+
+** Why Neural network?
+
+As we said before, we have no prior knowledge or experience of perceived failures. If there are events that are falling outside of our experiences, the only way to graps those events to make informed decisions in future is by way of building complex hierarchies of meaning to express information from raw data. Neural networks are best suited to solve these types of problems.
 
 
 #### Source:
