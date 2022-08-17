@@ -1,5 +1,5 @@
 <center>
-    <img src = images/lstm.png width = 50%/>
+    <img src = images/lstm.png width = 100%/>
 </center>
 
 ## Data Set Information:
@@ -9,7 +9,7 @@ The data belongs to a large cloud provider. It is obtained from their Data Cente
 
 #### Business Understanding
 
-** What is Predictive Maintenance?
+##### What is Predictive Maintenance?
 
 Our world is full of equipment. For example:
 - Aircraft consists of different equipments
@@ -23,9 +23,9 @@ This is a classic case of unsupervised learning. Unsupervised learning can be co
 
 In our use case, we do not know about a specific state at which a machine can be characterized as faulty or a component requires to be replaced in order to keep the machine in the running state. Hence we need to follow unsupervised learning method to determine this. We'll be using Neural network paradigm of machine learning to make intelligent decisions with limited human assistance to determine the maintenance predictively. 
 
-** Why Neural network?
+##### Why Neural network?
 
-As we said before, we have no prior knowledge or experience of perceived failures. If there are events that are falling outside of our experiences, the only way to graps those events to make informed decisions in future is by way of building complex hierarchies of meaning to express information from raw data. Neural networks are best suited to solve these types of problems.
+As we said before, we have no prior knowledge or experience of perceived failures. If there are events that are falling outside of our experiences, the only way to graps those events to make informed decisions in future is by way of building complex hierarchies of meaning to express information from the raw data. Neural networks are best suited to solve these types of problems.
 
 
 #### Source:
