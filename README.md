@@ -1,5 +1,7 @@
 <center>
-    <center><img src = images/lstm.png width = 35%, class = "centerImage"/></center>
+    <center>
+        <img src = images/lstm.png width = 35%/>
+    </center>
 </center>
 
 ## Data Set Information:
@@ -114,5 +116,5 @@ Packages: Pandas, tensorflow, Keras (Sequential, Dense, Dropout, lambda, Flatten
 
 
 <center>
-    <img src = images/copyright.png width = 5%, align = "right"/>
+    <img src = images/copyright.png width = 15%, align = "right"/>
 </center>
