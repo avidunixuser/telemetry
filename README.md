@@ -1,5 +1,5 @@
 <center>
-    <img src = images/lstm.png width = 50%, class = "centerImage"/>
+    <center?<img src = images/lstm.png width = 35%, class = "centerImage"/></center>
 </center>
 
 ## Data Set Information:
