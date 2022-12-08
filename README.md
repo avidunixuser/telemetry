@@ -106,7 +106,7 @@ Code Used: Python
 Packages: Pandas, tensorflow, Keras (Sequential, Dense, Dropout, lambda, Flatten, LSTM, Activation)
 </pre>
 ## Process Summary
-**By performing different ML models, we aimed to get better at predictively optimize following**
+**By performing different ML models, we aimed to get better at predictively optimizing following**
 - operational efficiency
 - inventory optimization
 - just-in-time procurement
