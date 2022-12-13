@@ -112,7 +112,7 @@ Packages: Pandas, tensorflow, Keras (Sequential, Dense, Dropout, lambda, Flatten
 - just-in-time procurement
 - warehouse cost
 - predictable consistent uptime
-- minimize SLA vilations
+- minimize SLA violations
 
 
 <center>
